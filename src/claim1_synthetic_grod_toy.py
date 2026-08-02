@@ -55,6 +55,6 @@ def main():
  with open(o/'results.csv','w',newline='') as f:
   w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows([{k:x[k] for k in keys} for x in rows])
  avg={k:sum(x[k] for x in rows)/len(rows) for k in keys[3:]}
- summary={'verdict':'toy','scope':'Reduced 2-D feature-space GROD generator/filter/binary-loss fixture; not ViT, CIFAR, ImageNet, or Table-1 reproduction.','config':c,'mean_metrics':avg,'control':'nearest-ID Mahalanobis baseline; held-out OOD is never used for synthetic training','raw_artifact':'raw.json'}
+ summary={'verdict':'toy','scope':'Reduced 2-D feature-space GROD generator/filter/binary-loss fixture; not ViT, CIFAR, ImageNet, or Table-1 reproduction.','config':c,'mean_metrics':avg,'control':'nearest-ID Mahalanobis baseline; held-out OOD is never used for synthetic training. This separable fixture does not claim a GROD improvement over the baseline.','raw_artifact':'raw.json'}
  with open(o/'summary.json','w') as f:json.dump(summary,f,indent=2,sort_keys=True);f.write('\n')
 if __name__=='__main__':main()

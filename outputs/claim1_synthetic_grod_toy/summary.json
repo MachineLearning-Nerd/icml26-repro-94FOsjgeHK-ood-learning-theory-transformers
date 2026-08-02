@@ -3,7 +3,7 @@
     "dimension": 2,
     "epochs": 500,
     "learning_rate": 0.08,
-    "mahalanobis_filter_min": 2.0,
+    "mahalanobis_filter_min": 80.0,
     "n_ood_test": 480,
     "n_test_per_class": 240,
     "n_train_per_class": 160,
@@ -15,12 +15,12 @@
     ],
     "synthetic_per_center": 160
   },
-  "control": "nearest-ID Mahalanobis baseline; held-out OOD is never used for synthetic training",
+  "control": "nearest-ID Mahalanobis baseline; held-out OOD is never used for synthetic training. This separable fixture does not claim a GROD improvement over the baseline.",
   "mean_metrics": {
     "baseline_auroc": 1.0,
     "baseline_fpr95": 0.0,
-    "grod_auroc": 0.9999175347222223,
-    "grod_fpr95": 0.0
+    "grod_auroc": 0.9996686921296297,
+    "grod_fpr95": 0.0006944444444444445
   },
   "raw_artifact": "raw.json",
   "scope": "Reduced 2-D feature-space GROD generator/filter/binary-loss fixture; not ViT, CIFAR, ImageNet, or Table-1 reproduction.",

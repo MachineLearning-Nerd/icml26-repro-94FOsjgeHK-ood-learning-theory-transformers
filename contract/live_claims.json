@@ -1,0 +1,26 @@
+[
+  {
+    "text": "GROD reduces FPR@95 on image OOD detection from 21.97% (baseline) to 0.12%, an improvement of over 21 percentage points (Table 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "GROD improves AUROC on image classification OOD tasks from 93.62% to 99.98% (Table 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "On text classification OOD tasks using BERT, GROD improves FPR@95 by 12.89 percentage points and AUROC by 2.27 percentage points over baselines (Table 3).",
+    "status": "unverified"
+  },
+  {
+    "text": "Theorem 1 (Informal Theorem 4) establishes that OOD detection learnability for transformers requires finite training data and an OOD misclassification penalty that exceeds the ID misclassification penalty (Section 3, Theorem 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "Ablation studies show the binary loss term, synthetic OOD generation module, and Mahalanobis distance filtering each individually contribute to GROD's overall performance gains (Table 4).",
+    "status": "unverified"
+  },
+  {
+    "text": "GROD outperforms baseline OOD detectors MSP, ODIN, VIM, GEN, ASH, G-ODIN, NPOS, and CIDER on CIFAR-10-based image OOD benchmarks (Table 1).",
+    "status": "unverified"
+  }
+]

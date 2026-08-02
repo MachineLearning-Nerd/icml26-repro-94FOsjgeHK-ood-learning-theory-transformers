@@ -1,0 +1,20 @@
+{
+  "retrieved_at_utc": "2026-08-02T20:33:11+00:00",
+  "source_urls": {
+    "challenge_readme": "https://huggingface.co/datasets/ICML-2026-agent-repro/challenge/resolve/main/README.md",
+    "index": "https://huggingface.co/datasets/ICML-2026-agent-repro/challenge/resolve/main/index.json",
+    "claims_anchored": "https://icml-2026-agent-repro-challenge.static.hf.space/claims_anchored.json",
+    "arxiv_pdf": "https://arxiv.org/pdf/2406.12915",
+    "arxiv_source": "https://export.arxiv.org/e-print/2406.12915"
+  },
+  "openreview_id": "94FOsjgeHK",
+  "title": "How Out-of-Distribution Detection Learning Theory Enhances Transformer: Learnability and Reliability",
+  "claim_count": 6,
+  "maximum_points": 12,
+  "claim_precedence": "claims_anchored.json replaces claims.json for matching OpenReview ID",
+  "sha256": {
+    "contract/metadata.json": "571e85e3e7192f457c076cd3d9440507e161429863c0e6e57283a465a2b73b73",
+    "contract/live_claims.json": "4d23be97c9329ac71da7032f6671d4d9403fb1f34bff2900c29c337c6368c7db",
+    "contract/challenge_readme.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5"
+  }
+}

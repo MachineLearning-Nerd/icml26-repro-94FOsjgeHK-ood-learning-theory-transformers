@@ -1,0 +1,9 @@
+{
+  "claim": "GROD reduces FPR@95 from 21.97% to 0.12% (Table 1).",
+  "source_location": "content/6_experiment_icml2026.tex Table 1",
+  "baseline_fpr95_percent": 21.97,
+  "grod_fpr95_percent": 0.12,
+  "absolute_reduction_percentage_points": 21.85,
+  "verdict": "inconclusive",
+  "scope": "Deterministic primary-source table transcription and arithmetic audit only; no independent ImageNet-200/GROD execution, hence not verification."
+}

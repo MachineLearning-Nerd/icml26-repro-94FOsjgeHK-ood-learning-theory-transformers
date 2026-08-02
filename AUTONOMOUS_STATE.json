@@ -27,7 +27,7 @@
     "6": 0
   },
   "last_checkpoint": "2026-08-03T00:30:00Z",
-  "last_known_git_commit": "9953e334a1144547f753d5d9dffb7024d63899ce",
+  "last_known_git_commit": "217fcb60c5a8dca799011ea0c514c8d85f3cc06a",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "claim_1_outcome": {

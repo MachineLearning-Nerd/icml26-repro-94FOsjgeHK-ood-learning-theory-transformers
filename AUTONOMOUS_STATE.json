@@ -11,7 +11,13 @@
     "claim_1_source_table_audit",
     "claim_1_attempt_2_local_feature_grod_generator_filter_binary_loss_toy"
   ],
-  "failed_attempts": [],
+  "failed_attempts": [
+    {
+      "phase": "claim_1_attempt_2_test_runner",
+      "outcome": "recoverable",
+      "reason": "system Python has no pytest; equivalent test assertions executed directly with standard library"
+    }
+  ],
   "claim_attempt_counts": {
     "1": 2,
     "2": 0,
@@ -21,7 +27,7 @@
     "6": 0
   },
   "last_checkpoint": "2026-08-03T00:30:00Z",
-  "last_known_git_commit": "4119b32bdef99dee97c152279eedae933df3b532",
+  "last_known_git_commit": "df22d4223f333571fad2265d0b0d9e961c62c444",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "claim_1_outcome": {

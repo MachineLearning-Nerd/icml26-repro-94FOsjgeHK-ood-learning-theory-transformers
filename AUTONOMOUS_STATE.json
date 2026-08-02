@@ -1,34 +1,38 @@
 {
   "schema_version": 1,
   "openreview_id": "94FOsjgeHK",
-  "phase": "claim_1_attempt_1_source_table_audit_complete_inconclusive",
-  "next_action": "launch_claim_1_local_cpu_synthetic_ood_fixture_or_record_cpu_infeasibility_of_literal_imagenet_run",
+  "phase": "claim_1_attempt_2_local_feature_grod_fixture_complete_toy",
+  "next_action": "independent_review_claim_1_toy_against_literal_table_1_then_claim_2_source_audit",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
-    "claim_1_source_table_audit"
+    "claim_1_source_table_audit",
+    "claim_1_attempt_2_local_feature_grod_generator_filter_binary_loss_toy"
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
-    "1": 1,
+    "1": 2,
     "2": 0,
     "3": 0,
     "4": 0,
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-03T00:00:00Z",
+  "last_checkpoint": "2026-08-03T00:30:00Z",
   "last_known_git_commit": "4119b32bdef99dee97c152279eedae933df3b532",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "claim_1_outcome": {
-    "verdict": "inconclusive",
-    "scope": "Primary-source Table-1 transcription/arithmetic audit, not an independent GROD/ImageNet reproduction.",
+    "verdict": "toy",
+    "scope": "Three-seed local CPU 2-D feature-space GROD-style synthetic-OOD generator, Mahalanobis filtering, and binary-loss fixture with held-out OOD AUROC/FPR@95 and nearest-ID Mahalanobis control; not ViT/CIFAR/ImageNet/Table-1.",
     "evidence": [
-      "outputs/claim1_source_audit/results.csv",
-      "outputs/claim1_source_audit/summary.json"
+      "outputs/claim1_synthetic_grod_toy/PROTOCOL.md",
+      "outputs/claim1_synthetic_grod_toy/raw.json",
+      "outputs/claim1_synthetic_grod_toy/results.csv",
+      "outputs/claim1_synthetic_grod_toy/summary.json",
+      "outputs/claim1_synthetic_grod_toy/SHA256SUMS"
     ]
   }
 }

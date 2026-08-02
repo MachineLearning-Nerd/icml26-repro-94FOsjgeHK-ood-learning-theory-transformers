@@ -1,0 +1,2 @@
+# Source mapping
+Pinned `content/5_grod.tex` describes GROD's binary ID/OOD loss and feature-level synthetic OOD mechanism. Lines around the GROD method state PCA/LDA boundary feature generation, outward shifting, Gaussian-mixture synthetic outliers, and Mahalanobis filtering; equations in the same source define the feature-space generation. `content/6_experiment.tex` Table 1 reports the literal ViT benchmark values but requires external datasets/backbones unavailable in this local-only fixture.

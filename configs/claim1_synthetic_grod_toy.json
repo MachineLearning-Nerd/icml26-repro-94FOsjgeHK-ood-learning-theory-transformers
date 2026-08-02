@@ -1,0 +1,1 @@
+{"seeds":[17,23,29],"n_train_per_class":160,"n_test_per_class":240,"n_ood_test":480,"dimension":2,"outward_shift":4.0,"synthetic_per_center":160,"mahalanobis_filter_min":2.0,"epochs":500,"learning_rate":0.08}

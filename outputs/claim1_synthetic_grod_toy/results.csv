@@ -1,0 +1,4 @@
+seed,synthetic_before_filter,synthetic_after_filter,baseline_auroc,baseline_fpr95,grod_auroc,grod_fpr95
+17,320,320,1.0,0.0,0.9999262152777778,0.0
+23,320,320,1.0,0.0,1.0,0.0
+29,320,320,1.0,0.0,0.9998263888888889,0.0
